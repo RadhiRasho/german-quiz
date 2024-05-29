@@ -8,7 +8,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
 
     - name: Set up Go
       uses: actions/setup-go@v2
@@ -28,7 +28,7 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
 
     - name: Set up Go
       uses: actions/setup-go@v2
@@ -41,8 +41,8 @@ jobs:
         GOOS=windows GOARCH=amd64 go build -o german-windows-amd64.exe
         GOOS=darwin GOARCH=amd64 go build -o german-darwin-amd64
 
-    - name: Generate random string
-      id: random_string
+    - name: Generate random Tag Name
+      id: random_tag
       run: echo "branch=$(date +%s | sha256sum | base64 | head -c 5 ; echo)" >> $GITHUB_OUTPUT
 
     - name: Create Release
@@ -51,8 +51,8 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        tag_name: ${{ steps.random_string.outputs.branch }}
-        release_name: Release ${{ steps.random_string.outputs.branch }}
+        tag_name: ${{ steps.random_tag.outputs.branch }}
+        release_name: Release ${{ steps.random_tag.outputs.branch }}
         draft: false
         prerelease: false
 
