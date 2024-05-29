@@ -1,3 +1,5 @@
+[![Go](https://github.com/RadhiRasho/german-quiz-cli/actions/workflows/go.yml/badge.svg)](https://github.com/RadhiRasho/german-quiz-cli/actions/workflows/go.yml)
+
 # German Quiz CLI
 
 ## Description
