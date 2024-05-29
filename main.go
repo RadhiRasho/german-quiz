@@ -2,6 +2,7 @@ package main
 
 import (
 	"bufio"
+	"embed"
 	"flag"
 	"fmt"
 	"log"
@@ -9,6 +10,12 @@ import (
 	"strconv"
 	"strings"
 )
+
+//go:embed data/KnownWords.json
+var knownWords embed.FS
+
+//go:embed data/Top1000.json
+var challenge embed.FS
 
 func main() {
 	var helpFlag bool
@@ -58,9 +65,9 @@ func main() {
 	var file []byte
 
 	if challengeFlag {
-		file, err = os.ReadFile("./data/Top1000.json")
+		file, err = challenge.ReadFile("data/Top1000.json")
 	} else {
-		file, err = os.ReadFile("./data/KnownWords.json")
+		file, err = knownWords.ReadFile("data/KnownWords.json")
 	}
 
 	if err != nil {
