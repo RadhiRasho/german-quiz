@@ -2173,7 +2173,8 @@
         "word": "jogge",
         "EnglishSentence": "I am jogging in the park.",
         "pos": [
-            "verb"
+            "verb",
+            "primary"
         ],
         "definition": [
             "am jogging",
@@ -2181,19 +2182,6 @@
             "jogging"
         ],
         "description": "The verb 'jogge' means 'am jogging', 'jog', or 'jogging' in English. It is used to describe the action of running at a slow, steady pace for exercise, fitness, or recreation. Joggen is a popular form of physical activity that promotes cardiovascular health, endurance, and well-being."
-    },
-    {
-        "word": "joggen",
-        "EnglishSentence": "I jog in the park every morning.",
-        "pos": [
-            "verb",
-            "infinitive"
-        ],
-        "definition": [
-            "to jog",
-            "jogging"
-        ],
-        "description": "The verb 'joggen' means 'to jog' or 'jogging' in English. It is used to describe the action of running at a slow, steady pace for exercise, fitness, or recreation. Joggen is a popular form of physical activity that promotes cardiovascular health, endurance, and well-being."
     },
     {
         "word": "joggst",
@@ -2220,6 +2208,19 @@
             "is jogging"
         ],
         "description": "The verb 'joggt' means 'jogs' or 'is jogging' in English. It is used to describe the action of running at a slow, steady pace for exercise, fitness, or recreation. Joggen is a popular form of physical activity that promotes cardiovascular health, endurance, and well-being."
+    },
+    {
+        "word": "joggen",
+        "EnglishSentence": "I jog in the park every morning.",
+        "pos": [
+            "verb",
+            "infinitive"
+        ],
+        "definition": [
+            "to jog",
+            "jogging"
+        ],
+        "description": "The verb 'joggen' means 'to jog' or 'jogging' in English. It is used to describe the action of running at a slow, steady pace for exercise, fitness, or recreation. Joggen is a popular form of physical activity that promotes cardiovascular health, endurance, and well-being."
     },
     {
         "word": "jung",
