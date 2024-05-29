@@ -1,4 +1,4 @@
-# German
+# German Quiz CLI
 
 ## Description
 A simple game to learn German words. The game will display the English definition of the word along with a sentence in English that uses the word. The player must then type the German word that corresponds to the English definition.
