@@ -11,11 +11,8 @@ import (
 	"strings"
 )
 
-//go:embed data/KnownWords.json
-var knownWords embed.FS
-
-//go:embed data/Top1000.json
-var challenge embed.FS
+//go:embed data/*.json
+var content embed.FS
 
 func main() {
 	var helpFlag bool
@@ -65,9 +62,9 @@ func main() {
 	var file []byte
 
 	if challengeFlag {
-		file, err = challenge.ReadFile("data/Top1000.json")
+		file, err = content.ReadFile("Top1000.json")
 	} else {
-		file, err = knownWords.ReadFile("data/KnownWords.json")
+		file, err = content.ReadFile("KnownWords.json")
 	}
 
 	if err != nil {
