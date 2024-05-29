@@ -41,10 +41,9 @@ jobs:
         GOOS=windows GOARCH=amd64 go build -o german-windows-amd64.exe
         GOOS=darwin GOARCH=amd64 go build -o german-darwin-amd64
 
-    - name: Extract branch name
-      shell: bash
-      run: echo "branch=${GITHUB_REF#refs/heads/}" >> $GITHUB_ENV
-      id: extract_branch
+    - name: Generate random string
+      id: random_string
+      run: echo "branch=$(date +%s | sha256sum | base64 | head -c 32 ; echo)" >> $GITHUB_ENV
 
     - name: Create Release
       id: create_release
@@ -52,8 +51,8 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        tag_name: ${{ steps.extract_branch.outputs.branch }}
-        release_name: Release ${{ steps.extract_branch.outputs.branch }}
+        tag_name: ${{ env.branch }}
+        release_name: Release ${{ env.branch }}
         draft: false
         prerelease: false
 
