@@ -62,9 +62,9 @@ func main() {
 	var file []byte
 
 	if challengeFlag {
-		file, err = content.ReadFile("Top1000.json")
+		file, err = content.ReadFile("data/Top1000.json")
 	} else {
-		file, err = content.ReadFile("KnownWords.json")
+		file, err = content.ReadFile("data/KnownWords.json")
 	}
 
 	if err != nil {
