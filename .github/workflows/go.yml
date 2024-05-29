@@ -43,7 +43,7 @@ jobs:
 
     - name: Generate random string
       id: random_string
-      run: echo "branch=$(date +%s | sha256sum | base64 | head -c 32 ; echo)" >> $GITHUB_ENV
+      run: echo "branch=$(date +%s | sha256sum | base64 | head -c 5 ; echo)" >> $GITHUB_OUTPUT
 
     - name: Create Release
       id: create_release
@@ -51,8 +51,8 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        tag_name: ${{ env.branch }}
-        release_name: Release ${{ env.branch }}
+        tag_name: ${{ steps.random_string.outputs }}
+        release_name: Release ${{ steps.random_string.outputs }}
         draft: false
         prerelease: false
 
