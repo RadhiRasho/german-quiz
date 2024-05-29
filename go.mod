@@ -1,3 +1,3 @@
-module github.com/RadhiRasho/simple-go/games/german
+module github.com/RadhiRasho/german-quiz-cli
 
 go 1.22.3
