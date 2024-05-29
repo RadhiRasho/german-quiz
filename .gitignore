@@ -3,3 +3,6 @@
 *.exe
 *.out
 *.o
+
+# VS Code
+.vscode
