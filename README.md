@@ -46,5 +46,4 @@ A simple game to learn German words. The game will display the English definitio
 german --help OR german -h
 
 german --challenge | german -c
-
 ```
