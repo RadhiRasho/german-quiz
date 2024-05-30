@@ -29,7 +29,7 @@ func PlayQuiz(words Words, scanner *bufio.Scanner, numWords int, correct *int) {
 			posStrings[i] = string(pos)
 		}
 
-		fmt.Print(string(colorCyan), "Part of Speech: ", string(colorReset), strings.Join(posStrings, ", "), string(colorReset), "\n")
+		fmt.Print(string(colorCyan), "Part of Speech: ", string(colorReset), strings.Join(posStrings, ", "), string(colorReset), "\n", string(colorCyan), "Sentance: ", word.EnglishSentence, string(colorReset))
 
 		scanner.Scan()
 
