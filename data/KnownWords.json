@@ -501,23 +501,25 @@
         "description": "The noun 'Bluse' means 'blouse' or 'top' in English. It refers to a garment typically worn by women, which covers the upper body and may be made of cotton, silk, or other materials."
     },
     {
-        "word": "brauchen",
-        "EnglishSentence": "I need a new phone.",
+        "word": "brauche",
+        "EnglishSentence": "I need to buy groceries.",
         "pos": [
-            "verb"
+            "verb",
+            "primary"
         ],
         "definition": [
             "need",
             "do need",
             "require"
         ],
-        "description": "The verb 'brauchen' means 'need' or 'do need' in English. It is used to express the necessity or requirement for something or someone. Brauchen is often used in combination with a noun or pronoun to indicate the object of the need or desire."
+        "description": "The verb 'brauche' means 'need' or 'do need' in English. It is the first-person singular form of the verb 'brauchen' (to need) in the present tense. Brauche is used to indicate that the subject of the sentence requires or desires something."
     },
     {
         "word": "brauchst",
         "EnglishSentence": "Do you need help?",
         "pos": [
-            "verb"
+            "verb",
+            "secondary"
         ],
         "definition": [
             "need",
@@ -525,6 +527,34 @@
             "require"
         ],
         "description": "The verb 'brauchst' means 'need' or 'use' in English. It is the second-person singular form of the verb 'brauchen' (to need) in the present tense. Brauchst is used to indicate that the subject of the sentence requires or desires something."
+    },
+    {
+        "word": "braucht",
+        "EnglishSentence": "He needs a new car.",
+        "pos": [
+            "verb",
+            "tertiary"
+        ],
+        "definition": [
+            "need",
+            "use",
+            "require"
+        ],
+        "description": "The verb 'braucht' means 'need' or 'use' in English. It is the third-person singular form of the verb 'brauchen' (to need) in the present tense. Braucht is used to indicate that the subject of the sentence requires or desires something."
+    },
+    {
+        "word": "brauchen",
+        "EnglishSentence": "I need a new phone.",
+        "pos": [
+            "verb",
+            "infinitive"
+        ],
+        "definition": [
+            "need",
+            "do need",
+            "require"
+        ],
+        "description": "The verb 'brauchen' means 'need' or 'do need' in English. It is used to express the necessity or requirement for something or someone. Brauchen is often used in combination with a noun or pronoun to indicate the object of the need or desire."
     },
     {
         "word": "Brot",
@@ -1355,7 +1385,8 @@
         "word": "frühstücke",
         "EnglishSentence": "I am eating breakfast.",
         "pos": [
-            "verb"
+            "verb",
+            "primary"
         ],
         "definition": [
             "eat breakfast",
@@ -1367,7 +1398,8 @@
         "word": "frühstückst",
         "EnglishSentence": "You are eating breakfast.",
         "pos": [
-            "verb"
+            "verb",
+            "secondary"
         ],
         "definition": [
             "are eating breakfast",
@@ -1379,7 +1411,8 @@
         "word": "frühstückt",
         "EnglishSentence": "He is eating breakfast.",
         "pos": [
-            "verb"
+            "verb",
+            "tertiary"
         ],
         "definition": [
             "are eating breakfast",
@@ -1680,6 +1713,7 @@
         "word": "hast",
         "EnglishSentence": "You have a cat.",
         "pos": [
+            "noun",
             "secondary"
         ],
         "definition": [
@@ -2600,49 +2634,49 @@
         ],
         "description": "The verb 'komme' means 'come', 'arrive', or 'reach' in English. It is used to describe the action of moving or traveling to a specific location, destination, or event.  Kommen is a common and versatile verb that indicates the arrival, presence, or participation of someone or something."
     },
-    {
-        "word": "kommen",
-        "EnglishSentence": "He is coming to the concert.",
-        "pos": [
-            "verb",
-            "infinitive"
-        ],
-        "definition": [
-            "come",
-            "arrive",
-            "reach"
-        ],
-        "description": "The verb 'kommen' means 'come', 'arrive', or 'reach' in English. It is used to describe the action of moving or traveling to a specific location, destination, or event.  Kommen is a common and versatile verb that indicates the arrival, presence, or participation of someone or something."
-    },
-    {
-        "word": "kommst",
-        "EnglishSentence": "You are coming to the party.",
-        "pos": [
-            "verb",
-            "secondary"
-        ],
-        "definition": [
-            "come",
-            "arrive",
-            "reach"
-        ],
-        "description": "The verb 'kommst' means 'come', 'arrive', or 'reach' in English. It is used to describe the action of moving or traveling to a specific location, destination, or event.  Kommen is a common and versatile verb that indicates the arrival, presence, or participation of someone or something."
-    },
-    {
-        "word": "kommt",
-        "EnglishSentence": "He is coming to the concert.",
-        "pos": [
-            "verb",
-            "tertiary"
-        ],
-        "definition": [
-            "comes",
-            "arrives",
-            "reaches"
-        ],
-        "description": "The verb 'kommt' means 'comes', 'arrives', or 'reaches' in English. It is used to describe the action of moving or traveling to a specific location, destination, or event.  Kommen is a common and versatile verb that indicates the arrival, presence, or participation of someone or something."
-    },
-    {
+        {
+            "word": "kommst",
+            "EnglishSentence": "You are coming to the party.",
+            "pos": [
+                "verb",
+                "secondary"
+            ],
+            "definition": [
+                "come",
+                "arrive",
+                "reach"
+            ],
+            "description": "The verb 'kommst' means 'come', 'arrive', or 'reach' in English. It is used to describe the action of moving or traveling to a specific location, destination, or event.  Kommen is a common and versatile verb that indicates the arrival, presence, or participation of someone or something."
+        },
+        {
+            "word": "kommt",
+            "EnglishSentence": "He is coming to the concert.",
+            "pos": [
+                "verb",
+                "tertiary"
+            ],
+            "definition": [
+                "comes",
+                "arrives",
+                "reaches"
+            ],
+            "description": "The verb 'kommt' means 'comes', 'arrives', or 'reaches' in English. It is used to describe the action of moving or traveling to a specific location, destination, or event.  Kommen is a common and versatile verb that indicates the arrival, presence, or participation of someone or something."
+        },
+        {
+            "word": "kommen",
+            "EnglishSentence": "He is coming to the concert.",
+            "pos": [
+                "verb",
+                "infinitive"
+            ],
+            "definition": [
+                "come",
+                "arrive",
+                "reach"
+            ],
+            "description": "The verb 'kommen' means 'come', 'arrive', or 'reach' in English. It is used to describe the action of moving or traveling to a specific location, destination, or event.  Kommen is a common and versatile verb that indicates the arrival, presence, or participation of someone or something."
+        },
+        {
         "word": "Konzert",
         "EnglishSentence": "I am going to a concert tonight.",
         "pos": [
@@ -2655,6 +2689,20 @@
             "show"
         ],
         "description": "The noun 'Konzert' means 'concert', 'concerto', or 'show' in English. It refers to a musical performance or event where musicians, singers, or performers play or sing for an audience. Konzerte are popular forms of entertainment, culture, and artistry."
+    },
+    {
+        "word": "kostet",
+        "EnglishSentence": "The meal costs twenty euros.",
+        "pos": [
+            "verb",
+            "tertiary"
+        ],
+        "definition": [
+            "cost",
+            "to cost",
+            "be priced at"
+        ],
+        "description": "The verb 'kostet' means 'is', 'does cost', 'costs', or 'cost' in English. It is used to describe the amount of money required to purchase or acquire a product, service, or item.  Kosten is a common and essential verb in commerce, economics, and financial transactions."
     },
     {
         "word": "kosten",
@@ -2672,20 +2720,6 @@
         "description": "The verb 'kosten' means 'cost', 'to cost', or 'be priced at' in English. It is used to describe the amount of money required to purchase or acquire a product, service, or item.  Kosten is a common and essential verb in commerce, economics, and financial transactions."
     },
     {
-        "word": "kostet",
-        "EnglishSentence": "The meal costs twenty euros.",
-        "pos": [
-            "verb",
-            "tertiary"
-        ],
-        "definition": [
-            "cost",
-            "to cost",
-            "be priced at"
-        ],
-        "description": "The verb 'kostet' means 'is', 'does cost', 'costs', or 'cost' in English. It is used to describe the amount of money required to purchase or acquire a product, service, or item.  Kosten is a common and essential verb in commerce, economics, and financial transactions."
-    },
-    {
         "word": "Kreditkarte",
         "EnglishSentence": "I paid with my credit card.",
         "pos": [
@@ -2698,6 +2732,19 @@
         "description": "The noun 'Kreditkarte' means 'credit card' in English. It refers to a plastic card issued by a financial institution that allows the cardholder to borrow funds or make purchases on credit. Kreditkarten are widely used for transactions, payments, and financial services."
     },
     {
+        "word": "Kreditkarten",
+        "EnglishSentence": "I paid with my credit cards.",
+        "pos": [
+            "noun",
+            "feminine",
+            "plural"
+        ],
+        "definition": [
+            "credit cards"
+        ],
+        "description": "The noun 'Kreditkarten' means 'credit cards' in English. It refers to plastic cards issued by financial institutions that allow cardholders to borrow funds or make purchases on credit. Kreditkarten are widely used for transactions, payments, and financial services."
+    },
+    {
         "word": "Käse",
         "EnglishSentence": "I love cheese.",
         "pos": [
@@ -2708,6 +2755,54 @@
             "cheese"
         ],
         "description": "The noun 'Käse' means 'cheese' in English. It refers to a dairy product made from milk that is coagulated, pressed, and aged to produce a variety of flavors, textures, and types. Käse is a versatile ingredient used in cooking, baking, and culinary applications."
+    },
+    {
+        "word": "kann",
+        "EnglishSentence": "I can speak German.",
+        "pos": [
+            "verb",
+            "primary"
+        ],
+        "definition": [
+            "knew",
+            "can",
+            "could",
+            "know",
+            "are able to"
+        ],
+        "description": "The verb 'Könne' means 'knew', 'can', 'could', 'know', or 'are able to' in English. It is used to describe the ability, capacity, or skill of someone to perform an action, task, or function. Könne is a common and versatile verb that indicates the potential, capability, or proficiency of an individual."
+    },
+    {
+        "word": "kannst",
+        "EnglishSentence": "You can speak German.",
+        "pos": [
+            "verb",
+            "secondary"
+        ],
+        "definition": [
+            "knew",
+            "can",
+            "could",
+            "know",
+            "are able to"
+        ],
+        "description": "The verb 'kannst' means 'knew', 'can', 'could', 'know', or 'are able to' in English. It is used to describe the ability, capacity, or skill of someone to perform an action, task, or function. Kannst is a common and versatile verb that indicates the potential, capability, or proficiency of an individual."
+    },
+    {
+        "word": "könnt",
+        "EnglishSentence": "You can speak German.",
+        "pos": [
+            "verb",
+            "tertiary"
+        ],
+        "definition": [
+            "knew",
+            "can",
+            "could",
+            "know",
+            "are able to"
+        ],
+        "description": "The verb 'könnt' means 'knew', 'can', 'could', 'know', or 'are able to' in English. It is used to describe the ability, capacity, or skill of someone to perform an action, task, or function. Könnt is a common and versatile verb that indicates the potential, capability, or proficiency of an individual."
     },
     {
         "word": "können",
@@ -2750,7 +2845,8 @@
             "neuter"
         ],
         "definition": [
-            "large"
+            "large",
+            "L-Size"
         ],
         "description": "The noun 'L' means 'large' in English. It is used to indicate the size, dimension, or scale of an object, garment, or item. L is a common and versatile expression of measurement, quantity, or proportion in clothing, apparel, or products."
     },
@@ -2809,6 +2905,33 @@
         "description": "The verb 'lebe' means 'live' or 'am living' in English. It is used to describe the state, condition, or activity of residing, existing, or dwelling in a specific place, city, or country. Leben is a fundamental and essential verb that indicates the location, situation, or lifestyle of an individual."
     },
     {
+        "word": "lebst",
+        "EnglishSentence": "You are living in a big city.",
+        "pos": [
+            "verb",
+            "secondary"
+        ],
+        "definition": [
+            "live",
+            "living"
+        ],
+        "description": "The verb 'lebst' means 'live' or 'living' in English. It is used to describe the state, condition, or activity of residing, existing, or dwelling in a specific place, city, or country. Leben is a fundamental and essential verb that indicates the location, situation, or lifestyle of an individual."
+    },
+    {
+        "word": "lebt",
+        "EnglishSentence": "He is living in a small town.",
+        "pos": [
+            "verb",
+            "tertiary"
+        ],
+        "definition": [
+            "lives",
+            "live",
+            "living"
+        ],
+        "description": "The verb 'lebt' means 'lives', 'live', or 'living' in English. It is used to describe the state, condition, or activity of residing, existing, or dwelling in a specific place, city, or country. Leben is a fundamental and essential verb that indicates the location, situation, or lifestyle of an individual."
+    },
+    {
         "word": "leben",
         "EnglishSentence": "He has lived in Paris for five years.",
         "pos": [
@@ -2823,19 +2946,6 @@
             "have lived"
         ],
         "description": "The verb 'leben' means 'lived', 'living', 'are living', 'live', or 'have lived' in English. It is used to describe the state, condition, or activity of residing, existing, or dwelling in a specific place, city, or country. Leben is a fundamental and essential verb that indicates the location, situation, or lifestyle of an individual."
-    },
-    {
-        "word": "lebst",
-        "EnglishSentence": "You are living in a big city.",
-        "pos": [
-            "verb",
-            "secondary"
-        ],
-        "definition": [
-            "live",
-            "living"
-        ],
-        "description": "The verb 'lebst' means 'live' or 'living' in English. It is used to describe the state, condition, or activity of residing, existing, or dwelling in a specific place, city, or country. Leben is a fundamental and essential verb that indicates the location, situation, or lifestyle of an individual."
     },
     {
         "word": "lecker",
@@ -2922,6 +3032,21 @@
         "description": "The verb 'lernt' means 'learns', 'learn', 'study', 'studying', or 'learning' in English. It is used to describe the action of acquiring knowledge, skills, or information through study, practice, or experience. Lernen is a fundamental and essential activity in education, personal development, or professional growth."
     },
     {
+        "word": "lernen",
+        "EnglishSentence": "We are learning to play the guitar.",
+        "pos": [
+            "verb",
+            "infinitive"
+        ],
+        "definition": [
+            "learn",
+            "study",
+            "studying",
+            "learning"
+        ],
+        "description": "The verb 'lernen' means 'learn', 'study', 'studying', or 'learning' in English. It is used to describe the action of acquiring knowledge, skills, or information through study, practice, or experience. Lernen is a fundamental and essential activity in education, personal development, or professional growth."
+    },
+    {
         "word": "liebe",
         "EnglishSentence": "I love you.",
         "pos": [
@@ -2959,6 +3084,18 @@
         "description": "The verb 'liebt' means 'loves' or 'love' in English. It is used to describe the strong affection, care, or attachment that one person feels for another. Lieben is a fundamental and essential emotion that connects, unites, or bonds individuals in relationships, families, or communities."
     },
     {
+        "word": "lieben",
+        "EnglishSentence": "They love to travel.",
+        "pos": [
+            "verb",
+            "infinitive"
+        ],
+        "definition": [
+            "love"
+        ],
+        "description": "The verb 'lieben' means 'love' in English. It is used to describe the strong affection, care, or attachment that one person feels for another. Lieben is a fundamental and essential emotion that connects, unites, or bonds individuals in relationships, families, or communities."
+    },
+    {
         "word": "links",
         "EnglishSentence": "The book is on the left side of the shelf.",
         "pos": [
@@ -2974,6 +3111,20 @@
         "description": "The adverb 'links' means 'on the left', 'left', 'to the left', 'on the left side', or 'on the left-hand side' in English. It is used to describe the direction, position, or orientation of an object or person in relation to a reference point or location. Links is a common and versatile expression of spatial relationships, directions, or locations."
     },
     {
+        "word": "mache",
+        "EnglishSentence": "I am making a cake.",
+        "pos": [
+            "verb",
+            "primary"
+        ],
+        "definition": [
+            "make",
+            "do",
+            "doing"
+        ],
+        "description": "The verb 'mache' means 'make', 'do', or 'doing' in English. It is used to describe the action of creating, producing, or performing a task, activity, or work. Machen is a fundamental and versatile verb that indicates the execution, completion, or accomplishment of an action or process."
+    },
+    {
         "word": "machst",
         "EnglishSentence": "You are making a cake.",
         "pos": [
@@ -2986,6 +3137,36 @@
             "doing"
         ],
         "description": "The verb 'machst' means 'make', 'do', or 'doing' in English. It is used to describe the action of creating, producing, or performing a task, activity, or work. Machen is a fundamental and versatile verb that indicates the execution, completion, or accomplishment of an action or process."
+    },
+    {
+        "word": "macht",
+        "EnglishSentence": "He is doing his homework.",
+        "pos": [
+            "verb",
+            "tertiary"
+        ],
+        "definition": [
+            "makes",
+            "does",
+            "make",
+            "do",
+            "doing"
+        ],
+        "description": "The verb 'macht' means 'makes', 'does', 'make', 'do', or 'doing' in English. It is used to describe the action of creating, producing, or performing a task, activity, or work. Machen is a fundamental and versatile verb that indicates the execution, completion, or accomplishment of an action or process."
+    },
+    {
+        "word": "machen",
+        "EnglishSentence": "We are doing our homework.",
+        "pos": [
+            "verb",
+            "infinitive"
+        ],
+        "definition": [
+            "make",
+            "do",
+            "doing"
+        ],
+        "description": "The verb 'machen' means 'make', 'do', or 'doing' in English. It is used to describe the action of creating, producing, or performing a task, activity, or work. Machen is a fundamental and versatile verb that indicates the execution, completion, or accomplishment of an action or process."
     },
     {
         "word": "mag",
@@ -3011,6 +3192,31 @@
             "like"
         ],
         "description": "The verb 'magst' means 'like' in English. It is used to describe the preference, enjoyment, or appreciation that one person has for something or someone. Mögen is a common and versatile verb that indicates the positive feelings, tastes, or desires of an individual."
+    },
+    {
+        "word": "mag",
+        "EnglishSentence": "He likes to play soccer.",
+        "pos": [
+            "verb",
+            "tertiary"
+        ],
+        "definition": [
+            "likes",
+            "like"
+        ],
+        "description": "The verb 'mag' means 'likes' or 'like' in English. It is used to describe the preference, enjoyment, or appreciation that one person has for something or someone. Mögen is a common and versatile verb that indicates the positive feelings, tastes, or desires of an individual."
+    },
+    {
+        "word": "mögen",
+        "EnglishSentence": "They like to travel.",
+        "pos": [
+            "verb",
+            "infinitive"
+        ],
+        "definition": [
+            "like"
+        ],
+        "description": "The verb 'mögen' means 'like' in English. It is used to describe the preference, enjoyment, or appreciation that one person has for something or someone. Mögen is a common and versatile verb that indicates the positive feelings, tastes, or desires of an individual."
     },
     {
         "word": "male",
