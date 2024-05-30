@@ -45,7 +45,7 @@ A simple game to learn German words. The game will display the English definitio
 
 ## Command Examples
 ```bash
-german --help OR german -h
-
+german --help | german -h
+---------------------------------------------
 german --challenge | german -c
 ```
