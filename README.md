@@ -41,7 +41,7 @@ A simple game to learn German words. The game will display the English definitio
 
 ## CLI Commands
 - `--help | -h`: Display the help menu
-- `--challenge | -h`: Play the game in challenge mode (default is normal mode)
+- `--challenge | -c`: Play the game in challenge mode (default is normal mode)
 
 ## Command Examples
 ```bash
