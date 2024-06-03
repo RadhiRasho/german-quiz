@@ -4,10 +4,7 @@ import (
 	"bufio"
 	"fmt"
 	"math/rand"
-	"os"
-	"os/exec"
 	"strings"
-	"time"
 )
 
 func PlayQuiz(words Words, scanner *bufio.Scanner, numWords int, correct *int) {
@@ -41,16 +38,11 @@ func PlayQuiz(words Words, scanner *bufio.Scanner, numWords int, correct *int) {
 		if strings.EqualFold(strings.TrimSpace(input), word.Word) {
 			fmt.Print(string(colorGreen), "✔ Correct", string(colorReset), "\n")
 			*correct++
-			time.Sleep(5 * time.Second)
 		} else {
 			fmt.Print(string(colorRed), "❌ Incorrect, ", string(colorGreen), "Correct Answer: ", word.Word, string(colorReset), "\n\n")
 			if word.Description != nil {
 				fmt.Print(string(colorYellow), "Additional Information: ", string(colorReset), *word.Description, string(colorReset), "\n")
 			}
-			time.Sleep(20 * time.Second)
 		}
-		cmd := exec.Command("clear")
-		cmd.Stdout = os.Stdout;
-		cmd.Run()
 	}
 }
