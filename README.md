@@ -4,6 +4,17 @@
 
 # German Quiz CLI
 
+## Installation
+```Bash
+go install github.com/RadhiRasho/german-quiz-cli@latest
+```
+I recommend renaming the binary to `german` or `german-quiz` for easier access
+```Bash
+mv $GOPATH/bin/german-quiz-cli $GOPATH/bin/german
+OR
+mv $GOPATH/bin/german-quiz-cli $GOPATH/bin/german-quiz
+```
+
 ## Description
 A simple game to learn German words. The game will display the English definition of the word along with a sentence in English that uses the word. The player must then type the German word that corresponds to the English definition.
 
