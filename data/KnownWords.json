@@ -62,7 +62,8 @@
         "EnglishSentence": "Achtung! Watch out for the falling debris.",
         "pos": [
             "noun",
-            "interjection"
+            "interjection",
+            "feminine"
         ],
         "definition": [
             "attention",
@@ -100,10 +101,12 @@
         "word": "am",
         "EnglishSentence": "The book is on the table.",
         "pos": [
-            "noun"
+            "noun",
+            "feminine"
         ],
         "definition": [
-            "on"
+            "on",
+            "on the"
         ],
         "description": "The noun 'am' means 'on' in English. It is used to indicate a specific location or position in relation to something else. It is often used in combination with other prepositions to indicate the direction or location of an action or event."
     },
@@ -583,6 +586,20 @@
         "description": "The noun 'Bruder' means 'brother' or 'bro' in English. It refers to a male sibling or a close male friend, often used as a term of endearment between friends."
     },
     {
+        "word": "Brüder",
+        "EnglishSentence": "The brothers are playing in the park.",
+        "pos": [
+            "noun",
+            "masculine",
+            "plural"
+        ],
+        "definition": [
+            "brothers",
+            "bros"
+        ],
+        "description": "The noun 'Brüder' means 'brothers' or 'bros' in English. It refers to a group of brothers or friends who are like brothers, sharing a close bond and camaraderie. Brüder are often depicted as loyal, supportive, and protective of each other."
+    },
+    {
         "word": "Bäckerei",
         "EnglishSentence": "I bought fresh bread from the bakery.",
         "pos": [
@@ -730,7 +747,9 @@
         "EnglishSentence": "I like your car.",
         "pos": [
             "pronoun",
-            "masculine"
+            "masculine",
+            "neuter",
+            "plural"
         ],
         "definition": [
             "your",
@@ -959,7 +978,7 @@
     },
     {
         "word": "eine",
-        "EnglishSentence": "I have a dog.",
+        "EnglishSentence": "I have a cat.",
         "pos": [
             "article",
             "pronoun",
@@ -1004,7 +1023,8 @@
             "numeral"
         ],
         "definition": [
-            "one"
+            "one",
+            "1"
         ],
         "description": "The numeral 'eins' means 'one' in English. It is used to indicate the quantity or number of something, typically in reference to a countable object, person, or group. Eins is the first cardinal number and the base of the decimal numeral system."
     },
@@ -1064,7 +1084,6 @@
             "feminine"
         ],
         "definition": [
-            "sorry",
             "excuse me",
             "apologies"
         ],
@@ -1434,10 +1453,43 @@
         "description": "The noun 'Fußball' means 'soccer' or 'football' in English. It refers to a team sport played with a round ball between two teams of eleven players each, known for its physicality, skill, and strategy. Fußball is the most popular and widely played sport in the world."
     },
     {
+        "word": "falle",
+        "EnglishSentence": "I am falling.",
+        "pos": [
+            "verb",
+            "primary"
+        ],
+        "definition": [
+            "fall",
+            "am falling",
+            "cases",
+            "falls",
+            "drop"
+        ],
+        "description": "The verb 'falle' means 'fall', 'am falling', 'cases', 'falls', or 'drop' in English. It is used to describe the action of descending or dropping from a higher to a lower position. Falle is often used to describe the movement of objects, substances, or natural phenomena."
+    },
+    {
+        "word": "fällst",
+        "EnglishSentence": "You are falling.",
+        "pos": [
+            "verb",
+            "secondary"
+        ],
+        "definition": [
+            "fall",
+            "are falling",
+            "cases",
+            "falls",
+            "drop"
+        ],
+        "description": "The verb 'fällst' means 'fall', 'are falling', 'cases', 'falls', or 'drop' in English. It is used to describe the action of descending or dropping from a higher to a lower position. Fällst is often used to describe the movement of objects, substances, or natural phenomena."
+    },
+    {
         "word": "fällt",
         "EnglishSentence": "The snow is falling.",
         "pos": [
-            "verb"
+            "verb",
+            "tertiary"
         ],
         "definition": [
             "fall",
@@ -1447,6 +1499,22 @@
             "drop"
         ],
         "description": "The verb 'fällt' means 'fall', 'is falling', 'cases', 'falls', or 'drop' in English. It is used to describe the action of descending or dropping from a higher to a lower position. Fällt is often used to describe the movement of objects, substances, or natural phenomena."
+    },
+    {
+        "word": "fallen",
+        "EnglishSentence": "The leaves are falling from the trees.",
+        "pos": [
+            "verb",
+            "infinitive"
+        ],
+        "definition": [
+            "fall",
+            "are falling",
+            "cases",
+            "falls",
+            "drop"
+        ],
+        "description": "The verb 'fallen' means 'fall', 'are falling', 'cases', 'falls', or 'drop' in English. It is used to describe the action of descending or dropping from a higher to a lower position. Fallen is often used to describe the movement of objects, substances, or natural phenomena."
     },
     {
         "word": "fünf",
@@ -1475,7 +1543,8 @@
         "word": "gehe",
         "EnglishSentence": "I am going for a walk.",
         "pos": [
-            "verb"
+            "verb",
+            "primary"
         ],
         "definition": [
             "am going",
@@ -1484,10 +1553,37 @@
         "description": "The verb 'gehe' means 'am going', 'walking', 'go', 'leave', 'going', 'walk', or 'answer' in English. It is used to describe the action of moving from one place to another on foot or by other means of transportation. Gehe is a common and essential human activity that involves physical movement and direction."
     },
     {
+        "word": "gehst",
+        "EnglishSentence": "You are going to the park.",
+        "pos": [
+            "verb",
+            "secondary"
+        ],
+        "definition": [
+            "are going",
+            "go"
+        ],
+        "description": "The verb 'gehst' means 'are going', 'go', 'leave', 'going', 'walk', or 'answer' in English. It is used to describe the action of moving from one place to another on foot or by other means of transportation. Gehst is a common and essential human activity that involves physical movement and direction."
+    },
+    {
+        "word": "geht",
+        "EnglishSentence": "He is going to the store.",
+        "pos": [
+            "verb",
+            "tertiary"
+        ],
+        "definition": [
+            "is going",
+            "go"
+        ],
+        "description": "The verb 'geht' means 'is going', 'go', 'leave', 'going', 'walk', or 'answer' in English. It is used to describe the action of moving from one place to another on foot or by other means of transportation. Geht is a common and essential human activity that involves physical movement and direction."
+    },
+    {
         "word": "gehen",
         "EnglishSentence": "We are going to the park.",
         "pos": [
-            "verb"
+            "verb",
+            "infinitive"
         ],
         "definition": [
             "go",
@@ -1652,6 +1748,7 @@
         "word": "habe",
         "EnglishSentence": "I have a cat.",
         "pos": [
+            "verb",
             "primary"
         ],
         "definition": [
@@ -1660,6 +1757,35 @@
             "own"
         ],
         "description": "The first person singular form of the verb 'haben' means 'have' or 'possession' in English. It is used to indicate possession, ownership, or control of something or someone. Habe is a common and essential verb that is used to express the relationship, connection, or association between a subject and an object."
+    },
+    {
+        "word": "hast",
+        "EnglishSentence": "You have a cat.",
+        "pos": [
+            "verb",
+            "secondary"
+        ],
+        "definition": [
+            "have",
+            "possess",
+            "own"
+        ],
+        "description": "The second person plural form of the verb 'haben' means 'have', 'possess', or 'own' in English. It is used to indicate possession, ownership, or control of something or someone. Habt is a common and essential verb that is used to express the relationship, connection, or association between a subject and an object."
+    },
+    {
+        "word": "hat",
+        "EnglishSentence": "He has a cat.",
+        "pos": [
+            "verb",
+            "tertiary"
+        ],
+        "definition": [
+            "has",
+            "have",
+            "possess",
+            "own"
+        ],
+        "description": "The third person singular form of the verb 'haben' means 'has', 'have', 'possess', or 'own' in English. It is used to indicate possession, ownership, or control of something or someone. Hat is a common and essential verb that is used to express the relationship, connection, or association between a subject and an object."
     },
     {
         "word": "haben",
@@ -1673,19 +1799,6 @@
             "own"
         ],
         "description": "The verb 'haben' means 'have', 'possess', or 'own' in English. It is used to indicate possession, ownership, or control of something or someone. Haben is a common and essential verb that is used to express the relationship, connection, or association between a subject and an object."
-    },
-    {
-        "word": "habt",
-        "EnglishSentence": "You have a cat.",
-        "pos": [
-            "secondary"
-        ],
-        "definition": [
-            "have",
-            "possess",
-            "own"
-        ],
-        "description": "The second person plural form of the verb 'haben' means 'have', 'possess', or 'own' in English. It is used to indicate possession, ownership, or control of something or someone. Habt is a common and essential verb that is used to express the relationship, connection, or association between a subject and an object."
     },
     {
         "word": "halb",
@@ -1754,6 +1867,7 @@
         "word": "heiße",
         "EnglishSentence": "My name is John.",
         "pos": [
+            "verb",
             "primary"
         ],
         "definition": [
@@ -1762,10 +1876,26 @@
         "description": "The first person singular form of the verb 'heißen' means 'am called' in English. It is used to introduce or identify oneself by name. Heiße is a common and essential verb that is used to express the identity, designation, or title of a person or thing."
     },
     {
+        "word": "heißt",
+        "EnglishSentence": "His name is Peter.",
+        "pos": [
+            "verb",
+            "secondary",
+            "tertiary"
+        ],
+        "definition": [
+            "is called",
+            "is named",
+            "is"
+        ],
+        "description": "The third person singular form of the verb 'heißen' means 'is called', 'is named', or 'is' in English. It is used to introduce or identify someone or something by name. Heißt is a common and essential verb that is used to express the identity, designation, or title of a person or thing."
+    },
+    {
         "word": "heißen",
         "EnglishSentence": "What is your name?",
         "pos": [
-            "verb"
+            "verb",
+            "infinitive"
         ],
         "definition": [
             "be called",
@@ -1775,19 +1905,6 @@
             "mean"
         ],
         "description": "The verb 'heißen' means 'be called', 'is called', 'are called', 'called', or 'mean' in English. It is used to introduce or identify someone or something by name. Heißen is a common and essential verb that is used to express the identity, designation, or title of a person or thing."
-    },
-    {
-        "word": "heißt",
-        "EnglishSentence": "His name is Peter.",
-        "pos": [
-            "tertiary"
-        ],
-        "definition": [
-            "is called",
-            "is named",
-            "is"
-        ],
-        "description": "The third person singular form of the verb 'heißen' means 'is called', 'is named', or 'is' in English. It is used to introduce or identify someone or something by name. Heißt is a common and essential verb that is used to express the identity, designation, or title of a person or thing."
     },
     {
         "word": "hell",
@@ -3992,7 +4109,8 @@
         "word": "passt",
         "EnglishSentence": "The dress fits perfectly.",
         "pos": [
-            "verb"
+            "verb",
+            "secondary"
         ],
         "definition": [
             "fit",
@@ -6209,11 +6327,56 @@
         "description": "The noun 'Wurst' means 'sausage' in English. It refers to a meat, pork, or beef product that is seasoned, cooked, or served in a casing, bun, or dish. Würste are popular, flavorful, or versatile foods that are enjoyed, grilled, or served in meals, snacks, or dishes for taste, texture, or traditions."
     },
     {
-        "word": "zahlen",
+        "word": "zahle",
         "EnglishSentence": "I am paying for the bill.",
         "pos": [
             "verb",
             "primary"
+        ],
+        "definition": [
+            "pay",
+            "to pay",
+            "are paying",
+            "numbers"
+        ],
+        "description": "The verb 'zahle' means 'pay', 'to pay', 'are paying', or 'paying' in English. It is used to describe the action, activity, or process of giving money, currency, or payment for goods, services, or transactions. Zahlen is a common, essential, or practical verb that is used in transactions, shopping, or business to settle, cover, or complete financial obligations, bills, or expenses."
+    },
+    {
+        "word": "zahlst",
+        "EnglishSentence": "You are paying for the bill.",
+        "pos": [
+            "verb",
+            "secondary"
+        ],
+        "definition": [
+            "pay",
+            "to pay",
+            "are paying",
+            "numbers"
+        ],
+        "description": "The verb 'zahlst' means 'pay', 'to pay', 'are paying', or 'paying' in English. It is used to describe the action, activity, or process of giving money, currency, or payment for goods, services, or transactions. Zahlen is a common, essential, or practical verb that is used in transactions, shopping, or business to settle, cover, or complete financial obligations, bills, or expenses."
+    },
+    {
+        "word": "zahlt",
+        "EnglishSentence": "He is paying for the bill.",
+        "pos": [
+            "verb",
+            "tertiary"
+        ],
+        "definition": [
+            "pay",
+            "to pay",
+            "are paying",
+            "numbers"
+        ],
+        "description": "The verb 'zahlt' means 'pay', 'to pay', 'are paying', or 'paying' in English. It is used to describe the action, activity, or process of giving money, currency, or payment for goods, services, or transactions. Zahlen is a common, essential, or practical verb that is used in transactions, shopping, or business to settle, cover, or complete financial obligations, bills, or expenses."
+    },
+    {
+        "word": "zahlen",
+        "EnglishSentence": "I am paying for the bill.",
+        "pos": [
+            "verb",
+            "infinitive"
         ],
         "definition": [
             "pay",
